@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    color: #40514E;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.top-container {
+   background-color: #edf4f2;
+   position: relative;
+   padding-top: 100px;
+}
+
+
+.top-cloud {
+   position: absolute;
+   right: 350px;
+   top: 50px;
+}
+
+
+.programmer
+ {
+   font-weight: normal;
+   color: #66BFBF;
+}
+
+
+h1 {
+  font-size: 200%;
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  line-height: 2;
+  color: #66BFBF;
+}
+
+
+h2{
+   font-family: 'Raleway', sans-serif;
+   font-size: 2.5rem;
+   line-height: 2;
+   color: #66BFBF;
+   padding-bottom: 10px;
+}
+
+
+h3 {
+     font-family: 'Raleway', sans-serif;
+     color: #11999E;
+}
+
+
+.h1 {
+    margin: 0;
+}
+
+
+.middle-container {
+  margin: 100px 0 ;
+}
+
+
+.bottom-container {
+  background-color: #abf0e9;
+  padding: 50px 0 20px;
+}
+
+
+a{
+  color: #82c4c3;
+  font-family: 'Raleway', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+
+a:hover{
+  color: #0a97b0;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 350px;
+  bottom: 320px;
+}
+
+
+.copyright{
+  color: #0a97b0;
+  font-size: 0.75rem;
+  padding: 20px 0 0;
+}
+
+
+p{
+  line-height: 2;
+}
+
+
+hr{
+  border: dotted #a3d2ca 6px;
+  border-bottom: none ;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.skill-row {
+  width: 50% ;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+
+.c-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.python-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+
+/*
+.btn {
+   background:#c5ded7;//THis is important one . remember this colour
+   background-image: -moz-linear-gradient(top, #1E62D0 , #3C86DB);
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3C86DB);
+   background-image: -webkit-gradient(top, color-stop(50%,#1E62D0), color-stop(50%,#3C86DB));
+   background-image: -o-linear-gradient(top, #1E62D0 0%, #3C86DB 100%);
+   background-image: -ms-linear-gradient(top, #1E62D0 0%, #3C86DB 100%);
+   background-image: linear-gradient(to bottom, #1E62D0, #3C86DB);
+   -webkit-border-radius: 43px;
+   -moz-border-radius: 43px;
+   border-radius: 43px;
+   color: #FFFFFF;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   border: solid #264E87 4px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #175BBE 4px;
+   background: #1E62D0;
+   background-image: -moz-linear-gradient(top, #1E62D0 , #1E62D0);
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3C86DB);
+   background-image: -webkit-gradient(top, color-stop(50%,#1E62D0), color-stop(50%,#3C86DB));
+   background-image: -o-linear-gradient(top, #1E62D0 0%, #3C86DB 100%);
+   background-image: -ms-linear-gradient(top, #1E62D0 0%, #3C86DB 100%);
+   background-image: linear-gradient(to bottom, #1E62D0, #3C86DB);
+   -webkit-border-radius: 43px;
+   -moz-border-radius: 43px;
+   border-radius: 43px;
+   text-decoration: none;
+}
+*/
+
+
+.btn {
+	box-shadow: 4px 6px 10px 0 #73787a;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:30px;
+	border:2px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Open Sans', sans-serif;
+	font-size:25px;
+	padding:15px 37px;
+	text-decoration:none;
+	text-shadow:6px 8px 9px #82848c;
+}
+
+
+.btn:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+  color: #ffffff;
+}
+
+
+.btn:active {
+	position:relative;
+	top:1px;
+}
